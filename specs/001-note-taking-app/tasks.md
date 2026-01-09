@@ -14,25 +14,26 @@
 - [x] T004 Integrate Shadcn UI components into `notes-app/` using the latest stable versions. (Follow instructions from https://ui.shadcn.com/docs/installation/vite)
 
 ## Phase 3: User Story 1 - Create and View Notes (P1)
-- [ ] T005 [P] [US1] Create "New Note" button and basic layout in `notes-app/src/pages/HomePage.tsx`
+- [x] T005 [P] [US1] Create "New Note" button and basic layout in `notes-app/src/pages/HomePage.tsx`
 
 **Story Goal**: As a user, I want to be able to create new notes, have them automatically titled based on content or date, and have them auto-saved, so that I can quickly capture and access my thoughts.
 **Independent Test**: Can be fully tested by creating a note, verifying its title generation and auto-save, and then viewing it. Delivers the primary value of capturing information.
 
 - [x] T005 [P] [US1] Create "New Note" button and basic layout in `notes-app/src/pages/HomePage.tsx`
-- [ ] T006 [P] [US1] Implement note editor component in `notes-app/src/components/NoteEditor.tsx`
-- [ ] T007 [P] [US1] Implement auto-save logic for note content in `notes-app/src/components/NoteEditor.tsx`
-- [ ] T008 [P] [US1] Implement auto-title generation logic (content-based or datetime), including handling for empty content (placeholder) and long content (truncation) in `notes-app/src/services/noteService.ts`
-- [ ] T009 [P] [US1] Implement note list display component in `notes-app/src/components/NoteList.tsx`
-- [ ] T010 [P] [US1] Integrate note creation and display on the main screen in `notes-app/src/pages/HomePage.tsx`
+- [x] T006 [P] [US1] Implement note editor component in `notes-app/src/components/NoteEditor.tsx`
+- [x] T007 [P] [US1] Implement auto-save logic for note content in `notes-app/src/components/NoteEditor.tsx`
+- [x] T008 [P] [US1] Implement auto-title generation logic (content-based or datetime), including handling for empty content (placeholder) and long content (truncation) in `notes-app/src/services/noteService.ts`
+- [x] T009 [P] [US1] Implement note list display component in `notes-app/src/components/NoteList.tsx`
+- [x] T010 [P] [US1] Integrate note creation and display on the main screen in `notes-app/src/pages/HomePage.tsx`
 
 ## Phase 4: User Story 2 - Edit and Manage Notes (P2)
+- [x] T011 [P] [US2] Implement note editing functionality in `notes-app/src/components/NoteEditor.tsx`
 
 **Story Goal**: As a user, I want to be able to edit existing notes and have changes auto-saved, so that I can refine and update my information.
 **Independent Test**: Can be tested by opening an existing note, making changes, and verifying they are saved and reflected.
 
-- [ ] T011 [P] [US2] Implement note editing functionality in `notes-app/src/components/NoteEditor.tsx`
-- [ ] T012 [P] [US2] Ensure auto-save functionality works for editing existing notes in `notes-app/src/components/NoteEditor.tsx`
+- [x] T011 [P] [US2] Implement note editing functionality in `notes-app/src/components/NoteEditor.tsx`
+- [x] T012 [P] [US2] Ensure auto-save functionality works for editing existing notes in `notes-app/src/components/NoteEditor.tsx`
 
 ## Phase 5: Quality Assurance & Performance
  
