@@ -13,7 +13,7 @@ The primary requirement is to create a Note-Taking Application with basic featur
 
 **Language/Version**: TypeScript
 **Primary Dependencies**: React, Vite, Tailwind CSS, Shadcn
-**Storage**: NEEDS CLARIFICATION
+**Storage**: Local Storage (for client-side persistence)
 **Testing**: Vitest
 **Target Platform**: Web
 **Project Type**: web

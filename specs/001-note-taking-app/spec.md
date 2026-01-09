@@ -60,7 +60,7 @@ As a user, I want to be able to edit existing notes and have changes auto-saved,
 - **FR-003**: System MUST automatically generate a title for each note based on its content or the current datetime.
 - **FR-004**: System MUST display a list of created notes with their generated titles.
 - **FR-005**: System MUST allow users to open and edit existing notes.
-- **FR-006**: System MUST provide a user interface with good UI/UX suitable for note-taking.
+- **FR-006**: System MUST provide a user interface with good UI/UX suitable for note-taking, adhering to the established design system and WCAG 2.1 AA accessibility standards.
 
 ### Out of Scope
 
