@@ -5,20 +5,21 @@
 
 ## Phase 1: Setup
 
-- [ ] T001 Create project structure: `notes-app/src/`, `notes-app/tests/`
+- [x] T001 Create project structure: `notes-app/src/`, `notes-app/tests/`
 
 ## Phase 2: Foundational
 
-- [ ] T002 Initialize React + Vite + TypeScript project in `notes-app/` using the latest stable versions. (Follow instructions from https://react.dev/learn/start-a-new-react-project and https://v3.tailwindcss.com/docs/guides/vite)
-- [ ] T003 Configure Tailwind CSS in `notes-app/` using the latest stable versions. (Follow instructions from https://v3.tailwindcss.com/docs/guides/vite)
-- [ ] T004 Integrate Shadcn UI components into `notes-app/` using the latest stable versions. (Follow instructions from https://ui.shadcn.com/docs/installation/vite)
+- [x] T002 Initialize React + Vite + TypeScript project in `notes-app/` using the latest stable versions. (Follow instructions from https://react.dev/learn/start-a-new-react-project and https://v3.tailwindcss.com/docs/guides/vite)
+- [x] T003 Configure Tailwind CSS in `notes-app/` using the latest stable versions. (Follow instructions from https://v3.tailwindcss.com/docs/guides/vite)
+- [x] T004 Integrate Shadcn UI components into `notes-app/` using the latest stable versions. (Follow instructions from https://ui.shadcn.com/docs/installation/vite)
 
 ## Phase 3: User Story 1 - Create and View Notes (P1)
+- [ ] T005 [P] [US1] Create "New Note" button and basic layout in `notes-app/src/pages/HomePage.tsx`
 
 **Story Goal**: As a user, I want to be able to create new notes, have them automatically titled based on content or date, and have them auto-saved, so that I can quickly capture and access my thoughts.
 **Independent Test**: Can be fully tested by creating a note, verifying its title generation and auto-save, and then viewing it. Delivers the primary value of capturing information.
 
-- [ ] T005 [P] [US1] Create "New Note" button and basic layout in `notes-app/src/pages/HomePage.tsx`
+- [x] T005 [P] [US1] Create "New Note" button and basic layout in `notes-app/src/pages/HomePage.tsx`
 - [ ] T006 [P] [US1] Implement note editor component in `notes-app/src/components/NoteEditor.tsx`
 - [ ] T007 [P] [US1] Implement auto-save logic for note content in `notes-app/src/components/NoteEditor.tsx`
 - [ ] T008 [P] [US1] Implement auto-title generation logic (content-based or datetime), including handling for empty content (placeholder) and long content (truncation) in `notes-app/src/services/noteService.ts`
